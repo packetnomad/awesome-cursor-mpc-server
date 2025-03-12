@@ -1,5 +1,7 @@
 # 🤖 AI Development Assistant MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@packetnomad/awesome-cursor-mpc-server)](https://smithery.ai/server/@packetnomad/awesome-cursor-mpc-server)
+
 Welcome to your AI-powered development toolkit, designed as a Model Context Protocol (MCP) server for Cursor! This project provides intelligent coding assistance through custom AI tools. Note that this is mostly a tutorial demo, and not a production-ready tool.
 
 ## ✨ Features
@@ -31,6 +33,15 @@ export const OPENAI_API_KEY = "your_key_here";
 
 ### 2. Installation
 
+#### Installing via Smithery
+
+To install awesome-cursor-mpc-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@packetnomad/awesome-cursor-mpc-server):
+
+```bash
+npx -y @smithery/cli install @packetnomad/awesome-cursor-mpc-server --client claude
+```
+
+#### Installing Manually
 ```bash
 npm install
 # or
